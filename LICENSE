@@ -1,0 +1,315 @@
+# MCQ STUDIO
+## PERSONAL, EDUCATIONAL AND NON-COMMERCIAL LICENSE
+
+**License Version:** 1.2
+**Effective Date:** 6 November 2026
+**Project:** MCQ Studio
+**Repository:** https://github.com/logicmagician/mcq-studio
+**Copyright Holder:** Md. Rakebul Hassan
+**Contact:** licensing.mcqstudio@gmail.com
+
+Copyright © 2026 Md. Rakebul Hassan. All rights reserved, subject to the permissions expressly granted below.
+
+---
+
+## 1. Purpose and License Type
+
+1.1. This License governs the use, copying, modification and redistribution of the original software and associated materials of the MCQ Studio project that the Copyright Holder owns or is authorized to license.
+
+1.2. MCQ Studio is provided under a custom, source-available license intended to permit personal, educational and non-commercial use, while reserving commercial use for separately authorized licensing.
+
+1.3. This License is not an Open Source license approved by the Open Source Initiative. The availability of source code does not, by itself, grant commercial rights.
+
+## 2. Definitions
+
+For the purposes of this License:
+
+2.1. **"Software"** means the original MCQ Studio source code, application files, interface components, documentation and other project materials owned or controlled by the Copyright Holder and expressly covered by this License.
+
+2.2. **"You"** means an individual or legal entity accessing or using the Software.
+
+2.3. **"Non-commercial use"** means use that is not primarily intended for or directed toward commercial advantage, monetary compensation, revenue generation or business operations.
+
+2.4. **"Educational use"** means use for learning, teaching, classroom practice, examination preparation, academic demonstration and other genuine educational activities.
+
+2.5. **"Commercial use"** means use connected with selling, licensing, monetizing, providing paid access to, commercially distributing, or otherwise obtaining commercial advantage from the Software, or from a product or service that substantially incorporates it.
+
+2.6. **"Modified Version"** means a version of the Software containing changes, additions, adaptations or derivative components.
+
+2.7. **"Commercial License Agreement"** means a separate written agreement signed by the Copyright Holder and an authorized commercial licensee.
+
+2.8. **"Original Materials"** means the Software as created by the Copyright Holder, excluding the items listed in Sections 9.3 and 10.
+
+## 3. Free Personal and Educational Permission
+
+3.1. Subject to compliance with this License, You are granted a limited, non-exclusive, non-transferable, royalty-free permission to:
+
+a. Access and use MCQ Studio for personal learning and examination preparation.
+
+b. Use MCQ Studio for teaching, classroom demonstrations and non-commercial educational activities.
+
+c. Download and run the Software for personal or educational purposes.
+
+d. Use the Software in a genuinely non-commercial educational setting, including ordinary classroom activities at schools, colleges and universities.
+
+e. Create and maintain private copies for permitted personal or educational use.
+
+3.2. No payment is required for the permissions granted under this Section 3.
+
+3.3. Educational activities are not automatically considered commercial merely because an educational institution charges tuition or receives ordinary institutional funding. However, selling access to MCQ Studio, offering it as a paid product or service, or commercially exploiting it remains subject to Section 7.
+
+3.4. The permissions in this Section 3 remain in effect for so long as You comply with this License, subject only to termination under Section 11.
+
+## 4. Non-commercial Modification Rights
+
+4.1. You may modify, adapt, improve and customize the Software for personal, educational and other permitted non-commercial purposes. You may:
+
+a. Modify the source code and interface;
+
+b. Add or remove features;
+
+c. Fix bugs and improve performance;
+
+d. Create private Modified Versions; and
+
+e. Share permitted Modified Versions with others for non-commercial purposes, subject to Section 5.
+
+4.2. All modifications must comply with this License and applicable law.
+
+4.3. This Section 4 does not transfer ownership of the Original Materials and does not grant commercial exploitation rights.
+
+## 5. Redistribution and Sharing
+
+5.1. You may redistribute the original Software or a Modified Version only for permitted non-commercial purposes and subject to all of the following conditions:
+
+a. Include a complete copy of this License;
+
+b. Preserve applicable copyright notices and attribution;
+
+c. Clearly identify substantial modifications and state that the redistributed version has been modified;
+
+d. Do not falsely claim that the Copyright Holder created, approved, supports or officially maintains Your Modified Version;
+
+e. Do not charge a license fee for, or sell access to, the Software or a Modified Version;
+
+f. Do not bundle the Software into a paid product, paid service or commercial offering;
+
+g. Do not remove or alter notices identifying the ownership of the Software or its licensing terms; and
+
+h. Do not use the name "MCQ Studio" in a manner prohibited by Section 15.
+
+5.2. Redistribution under this Section 5 does not grant recipients any commercial rights.
+
+5.3. You may not impose additional restrictions that remove or limit the permissions expressly granted by this License.
+
+## 6. Attribution
+
+6.1. When redistributing the Software or a Modified Version, You must retain applicable copyright and license notices and provide reasonable attribution to MCQ Studio and its original Copyright Holder.
+
+6.2. Suggested attribution:
+
+> "Based on MCQ Studio, originally developed by Md. Rakebul Hassan. Modified version; not an official release."
+
+6.3. Attribution does not imply endorsement or affiliation.
+
+## 7. Commercial Use and Annual Licensing
+
+7.1. Commercial use is **not permitted** under this License unless the Copyright Holder provides prior written authorization.
+
+7.2. Commercial activities requiring separate authorization include, without limitation:
+
+a. Selling the Software or a Modified Version;
+
+b. Offering paid access, subscriptions or memberships;
+
+c. Integrating the Software into a commercial product or paid service;
+
+d. Using the Software as a revenue-generating examination, assessment or educational platform;
+
+e. Offering hosted access to the Software in exchange for payment or another commercial benefit;
+
+f. Distributing the Software as part of a commercial package or service; and
+
+g. Monetizing a service that substantially incorporates the Software.
+
+7.3. A person seeking commercial use must obtain a separate Commercial License Agreement before beginning the relevant commercial activity.
+
+### 7.4. Annual Licensing Structure
+
+Commercial licensing is intended to operate through an annual licensing arrangement. A Commercial License Agreement may include:
+
+- an annual license fee or minimum annual royalty;
+- an additional royalty calculated on an agreed revenue basis, where applicable;
+- payment schedules and renewal conditions;
+- reporting and record-keeping obligations;
+- permitted users, deployments, territories and business activities;
+- conditions for commercial modifications and redistribution;
+- audit and verification procedures; and
+- termination and post-termination obligations.
+
+### 7.5. No Automatic Commercial Permission
+
+This License does not establish a fixed commercial fee, royalty percentage or automatic right to commercial use. Those terms must be expressly agreed in a separate written Commercial License Agreement signed by the relevant parties. A request for commercial permission, a payment offer or an informal discussion does not itself grant commercial rights.
+
+### 7.6. Precedence
+
+A Commercial License Agreement governs the commercial permissions it expressly grants. If it conflicts with this License, the Commercial License Agreement controls only with respect to the commercial permissions and obligations it specifically addresses.
+
+## 8. Prohibited Activities
+
+Unless separately authorized in writing, You must not:
+
+a. Use the Software for commercial purposes;
+
+b. Sell, sublicense, rent, lease or commercially distribute the Software;
+
+c. Remove or falsify ownership and licensing notices;
+
+d. Represent Yourself as the original developer or Copyright Holder;
+
+e. Claim official affiliation, endorsement or partnership with the Copyright Holder or the project without permission;
+
+f. Use the Software in a manner that violates applicable law or infringes another person's rights; or
+
+g. Circumvent the commercial restrictions of this License by transferring the Software to another person or entity for unauthorized commercial exploitation.
+
+Nothing in this Section 8 prohibits any activity that applicable law does not permit the Copyright Holder to restrict.
+
+## 9. Ownership and Intellectual Property
+
+9.1. The Copyright Holder retains ownership of the Original Materials and of all rights not expressly granted under this License.
+
+9.2. This License grants permissions to use, modify and redistribute the covered Software. It does not transfer copyright ownership. Moral rights of the author under the Copyright Act, 2000 of Bangladesh (as amended) and under any other applicable law are not waived or limited by this License, to the extent such rights cannot be waived.
+
+9.3. The Copyright Holder makes no claim of ownership over:
+
+- questions, answers, explanations and other content independently supplied by users;
+- user-created examination materials and personal records; or
+- third-party libraries, frameworks, fonts, icons and other assets owned by their respective rights holders.
+
+The rights in those materials remain subject to their respective ownership and licensing terms.
+
+9.4. You retain ownership of original materials that You independently create, subject to any rights in the Original Materials or third-party materials incorporated into them.
+
+9.5. You must not claim ownership of the Original Materials merely because You modified, adapted or redistributed them.
+
+## 10. Third-Party Components and Contributions
+
+10.1. MCQ Studio may include or depend on third-party software, libraries, fonts, icons or other materials. Those materials remain subject to their own licenses and terms. This License does not replace, override, limit or expand any third-party license.
+
+10.2. Before redistributing or commercially licensing a version of MCQ Studio, the relevant party must review the licenses and permissions applicable to all included components.
+
+10.3. Contributions from other developers are not automatically owned by the Copyright Holder. Ownership and licensing of any contribution must be established separately, in writing, before it is incorporated into the Software.
+
+10.4. The Copyright Holder grants rights only over materials that the Copyright Holder owns or is authorized to license.
+
+## 11. Termination
+
+11.1. Your permissions under this License terminate automatically if You materially breach its conditions.
+
+11.2. Where a breach can reasonably be remedied, the Copyright Holder shall give written notice describing the breach. If You remedy the breach within thirty (30) days of receiving that notice, Your permissions are reinstated and no termination takes effect.
+
+11.3. For serious breaches, including unauthorized commercial exploitation, the Copyright Holder may pursue any remedy available under applicable law, including injunctive relief and damages, without the cure period in Section 11.2.
+
+11.4. Upon termination, You shall cease the activities that are no longer authorized and shall remove, or cease distributing, unauthorized copies within Your control, subject to applicable legal requirements.
+
+11.5. Termination does not extinguish obligations or liabilities that arose before termination.
+
+11.6. The Copyright Holder may reinstate permissions by written confirmation.
+
+## 12. Disclaimer of Warranty
+
+12.1. THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND NON-INFRINGEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
+
+12.2. The Copyright Holder does not guarantee that the Software will be uninterrupted, error-free, secure, compatible with every device, or suitable for any particular educational or examination purpose.
+
+12.3. You are responsible for checking examination content, answer keys, scoring and results before relying on them.
+
+12.4. Nothing in this Section 12 excludes or limits any warranty, condition or right that cannot lawfully be excluded or limited under applicable law, including the Contract Act, 1872 of Bangladesh and any applicable consumer protection law.
+
+## 13. Limitation of Liability
+
+13.1. To the maximum extent permitted by applicable law, the Copyright Holder shall not be liable for any indirect, incidental, special, consequential or punitive loss, or for loss of data, profits or examination results, arising from the use of, or inability to use, the Software.
+
+13.2. To the maximum extent permitted by applicable law, the total aggregate liability of the Copyright Holder arising out of or in connection with the Software shall not exceed one hundred Bangladeshi Taka (BDT 100).
+
+13.3. Nothing in this Section 13 excludes or limits liability for death or personal injury caused by negligence, for fraud or fraudulent misrepresentation, or for any other liability that cannot lawfully be excluded or limited under applicable law.
+
+## 14. Privacy and Data
+
+14.1. The Software may store information on Your device or in the environment in which You run it. The Copyright Holder does not collect, sell or share personal data through the Software unless a separate privacy notice published with a specific release states otherwise.
+
+14.2. You are responsible for complying with applicable data protection, privacy and information-security laws when You collect, store or process personal data (including student or examinee data) using the Software.
+
+## 15. Trademarks
+
+15.1. The name "MCQ Studio", the project logo and any associated marks (the "Marks") are not licensed under this License.
+
+15.2. You may use the Marks only to identify the Software accurately and as required by Section 6, and only in a manner that does not suggest endorsement, sponsorship or affiliation.
+
+15.3. Any other use of the Marks requires the prior written permission of the Copyright Holder.
+
+## 16. No Patent License
+
+No patent license is granted under this License, whether express, implied or by estoppel.
+
+## 17. Governing Law and Disputes
+
+17.1. This License shall be governed by and construed in accordance with the laws of the People's Republic of Bangladesh.
+
+17.2. The parties shall first attempt to resolve any dispute arising out of or in connection with this License through good-faith written communication for a period of thirty (30) days from the date either party gives written notice of the dispute.
+
+17.3. If the dispute is not resolved within that period, it shall be submitted to the exclusive jurisdiction of the competent courts of Dhaka, Bangladesh.
+
+## 18. Language
+
+This License is written in English. If it is translated, the English text shall prevail for all purposes of interpretation.
+
+## 19. Notices
+
+Notices under this License shall be given in writing to the contact address in the header of this License, or to any other address the Copyright Holder designates in writing. Notices may be given by email.
+
+## 20. Changes to This License
+
+20.1. The Copyright Holder may publish a revised version of this License for future releases or future permissions.
+
+20.2. Each version shall be identified by its version number and effective date.
+
+20.3. Unless expressly agreed otherwise in writing, a revised version does not retroactively remove permissions already granted under an earlier version to a person who continues to comply with that earlier version.
+
+## 21. Acceptance
+
+By exercising any permission granted under this License, You agree to comply with its terms. If You do not agree with these terms, do not exercise the permissions granted by this License.
+
+Nothing in this License removes any right or exception that applicable law grants independently of this License.
+
+## 22. No Implied Rights
+
+No permission, license or right is granted by implication, estoppel or otherwise beyond the permissions expressly stated in this License. In particular, public availability of the source code, the repository or any hosted application does not grant commercial rights.
+
+## 23. Severability
+
+If any provision of this License is found invalid, unlawful or unenforceable by a competent authority, that provision shall be limited or severed to the minimum extent necessary, and the remaining provisions shall continue in full force and effect to the extent permitted by applicable law.
+
+## 24. Entire License
+
+24.1. This document is the complete license governing the permissions granted under this License, except where a separate written agreement expressly applies.
+
+24.2. Any amendment or additional permission must be documented in writing by the Copyright Holder or an authorized representative.
+
+## 25. Contact and Permissions
+
+For questions, licensing requests, commercial licensing discussions or written permissions, contact:
+
+**Copyright Holder:** Md. Rakebul Hassan
+**Project:** MCQ Studio
+**Repository:** https://github.com/logicmagician/mcq-studio
+**Email:** licensing.mcqstudio@gmail.com
+
+Commercial use requires a separate written agreement before the commercial activity begins.
+
+---
+
+**END OF MCQ STUDIO LICENSE — VERSION 1.2**
+
+**License classification:** Custom source-available, non-commercial license. Not an Open Source license approved by the Open Source Initiative.
