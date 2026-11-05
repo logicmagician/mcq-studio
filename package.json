@@ -1,0 +1,9 @@
+{
+  "name": "mcq-studio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/storage-tests.js && node tests/parser-tests.js && node tests/bengali-parser-tests.js && node tests/preview-logic-tests.js && node tests/css-checks.js && node tests/audit-static.js"
+  }
+}

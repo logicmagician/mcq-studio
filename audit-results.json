@@ -1,0 +1,405 @@
+{
+  "results": [
+    [
+      "dashboard loads with heading",
+      true,
+      ""
+    ],
+    [
+      "dashboard shows 4 statistic cards",
+      true,
+      ""
+    ],
+    [
+      "dashboard empty state visible",
+      true,
+      ""
+    ],
+    [
+      "dashboard stats show \"—\" for score (no fabricated data)",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"Import Questions\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"Question Preview\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"Exam Setup\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"Examination Room\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"Results\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"History\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar link \"Settings\" opens its page",
+      true,
+      ""
+    ],
+    [
+      "sidebar \"Dashboard\" returns to dashboard",
+      true,
+      ""
+    ],
+    [
+      "active nav item has aria-current=page",
+      true,
+      ""
+    ],
+    [
+      "the active nav item is the Dashboard link itself",
+      true,
+      ""
+    ],
+    [
+      "keyboard: first Tab focuses the skip link",
+      true,
+      ""
+    ],
+    [
+      "keyboard: skip link moves focus to the main content",
+      true,
+      ""
+    ],
+    [
+      "keyboard: skip link does not change the route",
+      true,
+      ""
+    ],
+    [
+      "default theme is dark",
+      true,
+      "rgb(11, 15, 25)"
+    ],
+    [
+      "dark background is #0B0F19 (rgb 11, 15, 25)",
+      true,
+      "rgb(11, 15, 25)"
+    ],
+    [
+      "clicking Light switches data-theme to light",
+      true,
+      ""
+    ],
+    [
+      "light background is #F5F7FB (rgb 245, 247, 251)",
+      true,
+      "rgb(245, 247, 251)"
+    ],
+    [
+      "Light button shows aria-pressed=true",
+      true,
+      ""
+    ],
+    [
+      "light theme persists after reload (before first paint)",
+      true,
+      ""
+    ],
+    [
+      "switching back to dark works",
+      true,
+      ""
+    ],
+    [
+      "360px: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "360px: navigation becomes top bar (sidebar full width)",
+      true,
+      "360px"
+    ],
+    [
+      "360px: interactive targets at least 36px tall",
+      true,
+      "40px"
+    ],
+    [
+      "390px: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "390px: navigation becomes top bar (sidebar full width)",
+      true,
+      "390px"
+    ],
+    [
+      "390px: interactive targets at least 36px tall",
+      true,
+      "40px"
+    ],
+    [
+      "430px: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "430px: navigation becomes top bar (sidebar full width)",
+      true,
+      "430px"
+    ],
+    [
+      "430px: interactive targets at least 36px tall",
+      true,
+      "40px"
+    ],
+    [
+      "768px: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "768px: sidebar at side (≈ 208px wide)",
+      true,
+      "208px"
+    ],
+    [
+      "768px: interactive targets at least 36px tall",
+      true,
+      "44px"
+    ],
+    [
+      "1024px: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "1024px: sidebar at side (≈ 248px wide)",
+      true,
+      "248px"
+    ],
+    [
+      "1024px: interactive targets at least 36px tall",
+      true,
+      "44px"
+    ],
+    [
+      "1440px: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "1440px: sidebar at side (≈ 248px wide)",
+      true,
+      "248px"
+    ],
+    [
+      "1440px: interactive targets at least 36px tall",
+      true,
+      "44px"
+    ],
+    [
+      "dashboard \"Create new exam\" opens Import",
+      true,
+      ""
+    ],
+    [
+      "Load sample fills the paste area",
+      true,
+      ""
+    ],
+    [
+      "sample import detects 2 questions",
+      true,
+      "Detected\n\n2\n\nReady\n\n2\n\nNeeds attention\n\n0\n\nNo answer key\n\n0\n\nAll questions parse"
+    ],
+    [
+      "sample: no question needs attention",
+      true,
+      ""
+    ],
+    [
+      "sample: both questions keyed (inline + answer key), 0 unkeyed",
+      true,
+      ""
+    ],
+    [
+      "preview shows 2 question cards",
+      true,
+      ""
+    ],
+    [
+      "preview shows question text from the paste",
+      true,
+      ""
+    ],
+    [
+      "inline answer ticked in preview (Answer: B)",
+      true,
+      "B. Dhaka"
+    ],
+    [
+      "edited question text is kept in the editor",
+      true,
+      ""
+    ],
+    [
+      "save question set shows success notice",
+      true,
+      ""
+    ],
+    [
+      "preview survives a page reload (IndexedDB draft)",
+      true,
+      ""
+    ],
+    [
+      "malformed set: all 4 questions kept (none silently dropped)",
+      true,
+      ""
+    ],
+    [
+      "malformed set: attention count is 2 (Q2 bad answer, Q3 one option)",
+      true,
+      "2"
+    ],
+    [
+      "preview badges: 2 \"Needs attention\", 1 \"No answer key\", 1 \"Ready\"",
+      true,
+      "['No answer key', 'Needs attention', 'Needs attention', 'Ready']"
+    ],
+    [
+      "preview shows the parser warning text",
+      true,
+      ""
+    ],
+    [
+      "unkeyed set: 2 questions, none need attention",
+      true,
+      ""
+    ],
+    [
+      "unkeyed set: reported as \"No answer key\"",
+      true,
+      ""
+    ],
+    [
+      "empty paste shows an error message",
+      true,
+      ""
+    ],
+    [
+      "Clear text empties the paste area",
+      true,
+      ""
+    ],
+    [
+      "Add question adds a card (3 total)",
+      true,
+      ""
+    ],
+    [
+      "Delete removes the card after confirmation",
+      true,
+      ""
+    ],
+    [
+      "Move up reorders questions",
+      true,
+      ""
+    ],
+    [
+      "Add option adds one option row",
+      true,
+      "5 -> 6"
+    ],
+    [
+      "mobile preview: no horizontal scrolling",
+      true,
+      "overflow 0px"
+    ],
+    [
+      "explanation + lowercase (a)/(b) + \"Answer: (b)\" import",
+      true,
+      ""
+    ],
+    [
+      "lowercase options shown as uppercase labels A, B",
+      true,
+      "['A', 'B']"
+    ],
+    [
+      "\"Answer: (b)\" ticked as option B",
+      true,
+      "['B. second']"
+    ],
+    [
+      "explanation preserved in the preview editor",
+      true,
+      ""
+    ],
+    [
+      "preview (phase 2 extras): no leaked \"null\"/\"undefined\"/\"NaN\" text",
+      true,
+      "[]"
+    ],
+    [
+      "three numbering styles in one paste all detected (3 questions)",
+      true,
+      ""
+    ],
+    [
+      "import status: no leaked \"null\"/\"undefined\"/\"NaN\" text",
+      true,
+      "[]"
+    ],
+    [
+      "dashboard \"Questions imported\" reflects the saved set (2 questions)",
+      true,
+      ""
+    ],
+    [
+      "dashboard hides the empty state once a set is saved",
+      true,
+      ""
+    ],
+    [
+      "dashboard: no leaked \"null\"/\"undefined\"/\"NaN\" text",
+      true,
+      "[]"
+    ],
+    [
+      "page declares an inline favicon (no 404 request)",
+      true,
+      ""
+    ],
+    [
+      "pasted <img onerror> did not execute",
+      true,
+      ""
+    ],
+    [
+      "pasted HTML is shown as literal text in the editor",
+      true,
+      ""
+    ],
+    [
+      "no injected <img> element exists in the page",
+      true,
+      ""
+    ]
+  ],
+  "problems": []
+}

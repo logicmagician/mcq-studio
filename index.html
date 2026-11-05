@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="MCQ Studio: Import. Practice. Improve. A free, local-first MCQ examination platform.">
+  <meta name="theme-color" content="#0B0F19">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%235558E8'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='700' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+  <title>MCQ Studio</title>
+  <!-- Apply saved theme before first paint to avoid a flash of the wrong theme -->
+  <script>
+    (function () {
+      try {
+        var s = JSON.parse(localStorage.getItem('mcqstudio.settings') || '{}');
+        if (s.theme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      } catch (e) { /* ignore: default dark theme stays */ }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/importer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#view" id="skip">Skip to content</a>
+
+  <div class="app">
+    <aside class="sidebar" aria-label="Primary">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <div>
+          <div class="brand-name">MCQ Studio</div>
+          <div class="brand-tag">Import. Practice. Improve.</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <a class="nav-link" href="#/dashboard" data-route="dashboard">Dashboard</a>
+        <a class="nav-link" href="#/import" data-route="import">Import Questions</a>
+        <a class="nav-link" href="#/preview" data-route="preview">Question Preview</a>
+        <a class="nav-link" href="#/configure" data-route="configure">Exam Setup</a>
+        <a class="nav-link" href="#/exam" data-route="exam">Examination Room</a>
+        <a class="nav-link" href="#/results" data-route="results">Results</a>
+        <a class="nav-link" href="#/history" data-route="history">History</a>
+        <a class="nav-link" href="#/settings" data-route="settings">Settings</a>
+      </nav>
+      <p class="sidebar-note">Data is stored only in this browser on this device.</p>
+    </aside>
+
+    <main class="main" id="view" tabindex="-1" aria-live="polite"></main>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

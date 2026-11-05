@@ -1,0 +1,5 @@
+/* ==========================================================
+   Dashboard-specific styles
+   ========================================================== */
+
+.hero { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-4); margin-bottom: var(--s-5); }

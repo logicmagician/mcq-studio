@@ -1,0 +1,51 @@
+/* ==========================================================
+   Responsive breakpoints and reduced-motion preference.
+   Loaded last so it can override the modules above.
+   ========================================================== */
+
+/* ---------- Responsive ---------- */
+
+/* Tablet and small laptops: narrower sidebar, a bit less padding */
+@media (max-width: 1023px) {
+  :root { --sidebar-w: 208px; }
+  .main { padding: var(--s-5); }
+}
+
+/* Phones and small tablets: sidebar becomes a compact top bar */
+@media (max-width: 767px) {
+  .app { grid-template-columns: minmax(0, 1fr); }
+  .sidebar {
+    position: sticky; top: 0; height: auto; z-index: 20;
+    padding: var(--s-3) var(--s-4); gap: var(--s-2);
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+    background: var(--glass);
+  }
+  .sidebar-note { display: none; }
+  .brand-tag { display: none; }
+  /* One row that scrolls sideways inside the nav only, so the page itself never scrolls */
+  .nav { flex-direction: row; flex-wrap: nowrap; gap: var(--s-1); overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 4px; }
+  .nav-link { flex: none; scroll-snap-align: start; }
+  .nav-link { min-height: 40px; padding: var(--s-1) var(--s-3); font-size: var(--fs-sm); }
+  .main { padding: var(--s-4); }
+  h1 { font-size: 1.5rem; }
+}
+
+/* Small phones: stat cards and summaries two per row */
+@media (max-width: 479px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-3); }
+  .grid .card { padding: var(--s-3); }
+  .stat-value { font-size: var(--fs-xl); }
+}
+
+/* Very small phones (360px) */
+@media (max-width: 379px) {
+  .main { padding: var(--s-3); }
+  .card { padding: var(--s-4); }
+  .btn { width: 100%; }
+  .btn-ghost { width: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

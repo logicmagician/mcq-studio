@@ -1,0 +1,104 @@
+/* ==========================================================
+   Phase 2: importer, preview and editor
+   Uses the design tokens from variables.css.
+   ========================================================== */
+
+/* Form fields. 16px font stops iOS from zooming when focused. */
+.field {
+  width: 100%;
+  min-height: var(--touch);
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 16px;
+  color: var(--text);
+  background: var(--bg-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  resize: vertical;
+}
+.field:focus { border-color: var(--primary); outline: 2px solid var(--focus); outline-offset: 1px; }
+textarea.field { min-height: 72px; line-height: 1.5; }
+
+.mcq-input {
+  min-height: 240px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+}
+
+.field-wrap { display: grid; gap: 6px; margin-bottom: var(--s-3); }
+.field-label { font-size: var(--fs-sm); font-weight: 600; color: var(--text-2); }
+.hint { font-size: var(--fs-sm); color: var(--text-2); margin: var(--s-2) 0 0; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: var(--s-2); margin: var(--s-3) 0; }
+.btn-sm { min-height: 40px; padding: 6px 12px; font-size: var(--fs-sm); }
+
+.summary { margin: var(--s-4) 0; }
+.summary-block { margin-top: var(--s-4); display: grid; gap: var(--s-3); }
+
+/* Badges */
+.badge {
+  display: inline-block; padding: 2px 10px; border-radius: 999px;
+  font-size: 0.75rem; font-weight: 600; white-space: nowrap;
+  background: var(--border); color: var(--text);
+}
+.badge-ok { background: var(--success-soft); }
+.badge-attention { background: var(--warning-soft); }
+.badge-unkeyed { background: var(--primary-soft); }
+
+/* Question list */
+.q-list { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-4); }
+.q-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--s-4);
+  box-shadow: var(--shadow);
+  min-width: 0;
+}
+.q-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--s-2); margin-bottom: var(--s-3); }
+.q-head h3 { margin: 0; }
+
+/* Options */
+.opt-list { display: grid; gap: var(--s-2); }
+.opt-row { display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: var(--s-2); align-items: center; }
+.opt-label {
+  display: grid; place-items: center; width: 36px; height: 36px;
+  border-radius: 10px; background: var(--primary-soft); font-weight: 700;
+}
+
+/* Answer checkboxes */
+.answer-set {
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: var(--s-3); margin: var(--s-3) 0; display: grid; gap: var(--s-1);
+}
+.answer-set legend { font-size: var(--fs-sm); font-weight: 600; color: var(--text-2); padding: 0 6px; }
+.check-row { display: flex; align-items: center; gap: var(--s-2); min-height: var(--touch); cursor: pointer; }
+.check-row input { width: 20px; height: 20px; flex: none; accent-color: var(--primary); }
+
+/* Warnings */
+.warn-list { list-style: none; padding: 0; margin: var(--s-3) 0; display: grid; gap: 6px; }
+.warn-list li {
+  font-size: var(--fs-sm); padding: 8px 12px; border-radius: var(--radius-sm);
+  background: var(--warning-soft); color: var(--text);
+}
+.warn-list li.info { background: var(--primary-soft); color: var(--text-2); }
+.warn-list li.attention { background: var(--warning-soft); color: var(--text); }
+
+.q-actions { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-3); }
+
+details.source { margin-top: var(--s-3); }
+details.source summary { cursor: pointer; color: var(--text-2); font-size: var(--fs-sm); min-height: 32px; }
+details.source pre, .formats pre {
+  white-space: pre-wrap; word-break: break-word; font-size: 0.85rem;
+  background: var(--bg-2); padding: var(--s-3); border-radius: var(--radius-sm); overflow-x: auto;
+}
+
+.notice[data-kind="info"] { background: var(--primary-soft); }
+
+/* Phones: stack option controls and keep buttons thumb-sized */
+@media (max-width: 479px) {
+  .opt-row { grid-template-columns: 36px minmax(0, 1fr); }
+  .opt-row .btn { grid-column: 2; justify-self: start; }
+  .toolbar .btn { flex: 1 1 100%; }
+  .q-actions .btn { flex: 1 1 auto; }
+}

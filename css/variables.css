@@ -1,0 +1,83 @@
+/* ==========================================================
+   MCQ Studio design tokens
+   All colours, spacing and type sizes live here so the whole
+   app can be re-themed by changing values in one place.
+   ========================================================== */
+
+:root {
+  /* Surfaces (dark by default) */
+  --bg: #0B0F19;
+  --bg-2: #111827;
+  --card: #151D2E;
+  --card-hover: #1B2539;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* Text */
+  --text: #F3F4F6;
+  --text-2: #9CA3AF;
+
+  /* Accents and status */
+  --primary: #6366F1;
+  /* Filled buttons use a deeper indigo so white text passes WCAG AA (4.5:1+).
+     --primary stays #6366F1 for accents, links and focus. */
+  --primary-strong: #5558E8;
+  --primary-strong-hover: #4F46E5;
+  --on-primary: #FFFFFF;
+  --success-soft: rgba(34, 197, 94, 0.16);
+  --warning-soft: rgba(245, 158, 11, 0.16);
+  --error-soft: rgba(239, 68, 68, 0.14);
+  --primary-soft: rgba(99, 102, 241, 0.16);
+  --secondary: #3B82F6;
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --focus: #A5B4FC;
+
+  /* Shape and depth */
+  --radius-sm: 8px;
+  --radius: 14px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  --glass: rgba(21, 29, 46, 0.72);
+
+  /* Spacing scale */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+
+  /* Typography */
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans Bengali', sans-serif;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 1.875rem;
+
+  /* Touch target minimum (WCAG 2.5.5 recommends 44px) */
+  --touch: 44px;
+
+  /* Sidebar width on desktop */
+  --sidebar-w: 248px;
+
+  color-scheme: dark;
+}
+
+/* Light theme: optional, chosen in Settings */
+:root[data-theme="light"] {
+  --bg: #F5F7FB;
+  --bg-2: #FFFFFF;
+  --card: #FFFFFF;
+  --card-hover: #F1F4FA;
+  --border: rgba(15, 23, 42, 0.10);
+  --border-strong: rgba(15, 23, 42, 0.20);
+  --text: #111827;
+  --text-2: #4B5563;
+  --primary-soft: rgba(99, 102, 241, 0.12);
+  --focus: #4338CA;
+  --shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  --glass: rgba(255, 255, 255, 0.85);
+  color-scheme: light;
+}
